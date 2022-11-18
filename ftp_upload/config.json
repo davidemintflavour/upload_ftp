@@ -1,0 +1,29 @@
+{"ftp":
+    {
+        "host": "195.231.78.142",
+        "user": "davide.cerpelloni",
+        "password": "7W84%wmm1",
+        "server_wd_path" :"upload",
+        "local_wd" : "filetoupload",
+        "remove" : true,
+        "days_before" : 3, 
+        "hour" : 23,
+        "minute" : 55
+    },
+  "which_mail" : "smtp",
+  "api_mail":
+    {   
+        "receiver_mail" : "davidecerpe@gmail.com"
+    },
+  "smtp":
+    {
+        "my_address" : "test@mntflv.com",
+        "password" : "53gRn8b6$",
+        "host" : "mntflv.com",
+        "port" : 465,
+        "receiver_mail" : "davidecerpe@gmail.com",
+        "subject" : "Ftp upload error",
+        "text" : "There's an error with check sum of file: "
+    }
+
+}
